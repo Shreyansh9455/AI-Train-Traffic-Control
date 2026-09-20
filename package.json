@@ -1,0 +1,27 @@
+{
+  "name": "ai-train-traffic-control",
+  "version": "1.0.0",
+  "description": "AI Train Traffic Control & Autonomous Dispatch System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "seed": "npm --prefix server run seed",
+    "test:optimizer": "node server/src/testOptimizer.js",
+    "test:sim": "node server/src/testSimulation.js"
+  },
+  "keywords": [
+    "railway-traffic-management",
+    "train-dispatch",
+    "ai-optimizer",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "tailwind-css"
+  ],
+  "author": "",
+  "license": "MIT"
+}

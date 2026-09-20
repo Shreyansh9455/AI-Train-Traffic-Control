@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #080d1a;
+    color: #f8fafc;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Control Room Grid Background */
+.control-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(34, 52, 88, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(34, 52, 88, 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Scrollbar for Control Room Dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080d1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c2b4a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b3f69;
+}

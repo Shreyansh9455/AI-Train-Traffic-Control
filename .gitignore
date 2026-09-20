@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+package-lock.json.bak
+
+# Production & Build outputs
+dist/
+*/dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables (Sensitive Credentials)
+.env
+.env.*
+!.env.example
+!*/.env.example
+!**/.env.example
+*.env
+
+# Zip and archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Logs & Diagnostics
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & testing
+lib-cov
+coverage
+*.lcov
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
